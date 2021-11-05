@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta chatset="UTF-8" />
+    <link rel="StyleSheet" href="../css/estiloInicioSesion.css" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <div class="izquierda">
+        <h1>Plantarte</h1>
+      </div>
+      <div class="derecha">
+        <h2>Inicio de sesión</h2>
+        <div class="item-username">
+          <i></i>
+          <input type="text" placeholder="username" name="username" id="usuario" />
+        </div>
+        <div class="item-password">
+          <i></i>
+          <input type="password" placeholder="password" name="password" />
+        </div>
+        <button type="submit" onclick="inicio()">Iniciar sesión</button>
+        <div class="sel-one-radio">
+          <input type="radio" name="radAnswer" value="value1">Recúerdame</input> 
+        </div>
+        <div class="hip-registrarse">
+          <p>
+            <a href="ViewRegistrar.html">Registrase</a>
+          </p>
+        </div>
+        <div class="hip-olv-contr">
+          <p>
+            <a href="./ViewMain.html">Olvidé mi contraseña</a>
+          </p>
+        </div>
+        <div>
+          <p id="respuesta">
+            
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>©Copyright 2021 Plantarte. Todos los derechos revertidos.</p>
+    </footer>
+  </body>
+</html>
+<script src="../js/inicio.js"> </script>

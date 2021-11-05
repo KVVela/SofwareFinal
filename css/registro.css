@@ -1,0 +1,126 @@
+.contenedor
+{
+	position: absolute;
+	width: 100%;
+	height: 90%;	
+}
+.contenedor h1
+{
+	margin-top: 100px;
+	margin-left: 5%;
+	font-family: arial;
+	color: rgb(60, 178, 34  );
+}
+.registro , .registro2
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+    transition: 1s;
+}
+.registro section, .registro2 section
+{
+   position: relative;
+   width: 650px;
+   height: 100%;
+}
+.registro section img
+{
+   width: 100%;
+   height: 100%;
+}
+.registro  section input
+{
+   width: 90%;
+   height: 20px;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+   margin: 30px;
+   border-bottom: 3px solid rgb(60, 178, 34);
+}
+.formulario table
+{
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 10%;
+}
+.center
+{
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+.center button
+{
+    width: 300px;
+	height: 50px;
+	padding: 4px;
+	color: white;
+	border-radius: 15px;
+	font-size: 1.2em;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	background: rgb(60, 178, 34  );
+	border: none;
+	cursor: pointer;
+}
+.footer
+{
+	width: 	100%;
+	height: 12%;
+	background: gray;
+	position: relative;
+}
+.login 
+{
+  width: 50% ;
+  height: 70%;
+  margin-left: 25%;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 1px solid black ;
+}
+.ini_ses
+{
+	position: relative;
+	width: 180px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 110px;
+	border-radius: 10px;
+	background: rgb(60, 178, 34  );
+	color: white;
+}
+.login table td
+{
+	margin-left: 20px;
+}
+.tables input
+{
+   border: 2px solid black;
+   height: 20px;
+   border-radius: 5px;
+}
+.verde
+{
+	position: absolute;
+	width: 1000px;
+	height: 710px;
+	background: rgb(60, 178, 34  );
+	margin-left: -50%;
+	margin-top: -7.5%;
+	border-radius: 0% 50% 50% 0%;	
+	z-index: 10000	;
+}
+.verde h1
+{
+	position: absolute;
+	z-index: 10000	;
+	color: black;
+	margin-left: 450px;
+	margin-top: 350px;
+	font-size: 3rem;
+	font-weight: bold;
+}

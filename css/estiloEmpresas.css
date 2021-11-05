@@ -1,0 +1,354 @@
+/*width: ancho, height: alto*/
+/*left: izquierda, right: derecha*/
+h1 {
+  position: absolute;
+  width: 608px;
+  height: 50px;
+  left: 86px;
+  top: 0px;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 0px;
+  color: #ffffff;
+}
+
+h2 {
+  position: absolute;
+  width: 279px;
+  height: 39px;
+  left: 140px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #3e5916;
+}
+
+body {
+  overflow-y: scroll;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.top {
+  left: 0px;
+  top: 0px;
+  width: 1519px;
+  height: 612px;
+  border-radius: 0px;
+  background: #3e5916;
+}
+
+.center {
+  left: 0px;
+  top: 105px;
+  width: 1519px;
+  height: 612px;
+  border-radius: 0px;
+  position: absolute;
+  background: #ffffff;
+}
+
+.empresas {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #537361;
+}
+
+.rectangulo {
+  left: 65px;
+  top: 105px;
+  position: absolute;
+  width: 1400px;
+  height: 65px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.rectangulo1 {
+  left: 65px;
+  top: 205px;
+  position: absolute;
+  width: 1400px;
+  height: 260px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.imagenempresa {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.correo {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nit {
+  position: absolute;
+  top: 20px;
+  left: 330px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nombre {
+  position: absolute;
+  top: 20px;
+  left: 480px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tipo {
+  position: absolute;
+  top: 20px;
+  left: 630px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dinero {
+  position: absolute;
+  top: 20px;
+  left: 780px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.numero {
+  position: absolute;
+  top: 20px;
+  left: 930px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cuidad {
+  position: absolute;
+  top: 20px;
+  left: 1080px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.accion {
+  position: absolute;
+  top: 20px;
+  left: 1230px;
+  width: 125px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cerrarsession {
+  height: 36px;
+  width: 154px;
+  left: 1300px;
+  top: 30px;
+  border-radius: 0px;
+  position: absolute;
+  border: 3px solid #8ba629;
+  box-sizing: border-box;
+}
+
+.buscarempresa {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 170px;
+  height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nombreempresa {
+  position: absolute;
+  top: 23px;
+  left: 210px;
+  width: 300px;
+  height: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+.botonbuscar {
+  position: absolute;
+  top: 20px;
+  left: 530px;
+  width: 206px;
+  height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.empresasinhabilitados {
+  position: absolute;
+  top: 20px;
+  left: 780px;
+  width: 186px;
+  height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.empresasactivados {
+  position: absolute;
+  top: 20px;
+  left: 990px;
+  width: 186px;
+  height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.empresasdesactivados {
+  position: absolute;
+  top: 20px;
+  left: 1200px;
+  width: 186px;
+  height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  position: absolute;
+  width: 300px;
+  height: 44px;
+  left: 140px;
+  top: 200px;
+  color: #ffffff;
+  background: #3e5916;
+  border-radius: 15px;
+}
+
+footer {
+  height: 100px;
+  width: 1519px;
+  left: 0px;
+  top: 612px;
+  border-radius: 0px;
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  background: #3d3d3d;
+}

@@ -1,0 +1,25 @@
+.form
+{
+  width: 70%;
+  min-height: 80px;
+  height: auto;
+  background: white;
+  margin-top: 20%;
+  margin-left: 15%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.form input , .form select
+{
+	margin-top: 20px;
+	width: 200px;
+	height: 30px;
+	border-radius: 0px 5px 5px 0px;
+	border: none;
+}
+.form .label
+{
+
+}

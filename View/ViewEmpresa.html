@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<!--Inicio  link vinculo css, imagenes, frameworks-->
+	<link rel="stylesheet" href="../css/body.css">
+	<link rel="stylesheet" href="../css/usuario.css">
+	<link rel="stylesheet" href="../css/modal.css">
+	<link rel="stylesheet" href="../css/form.css">
+	<link rel="stylesheet" href="../css/tabla.css">
+	<link rel="icon" type="image/png" href="../img/plantarte.png" />  
+	<!--Fin  link vinculo css, imagenes, frameworks-->
+
+	<!--titulo de la pestaña-->
+	<title>Empresas</title>
+</head>
+<body>
+	<!--contenedor-->
+	<div id="modal" class="modal">
+		<form action="#" class="form">
+			<label class="label">------Tipo--------</label> 
+			<select name="tipo" onchange="form(this.value)">
+				<option value="0">Tipo de Usuario</option>
+				<option value="1">Administrador</option>
+				<option value="2">Empresa</option>
+				<option value="3">Individuo</option>
+			</select>	<br>		
+			<label class="label">---Nit----</label>
+			<input type="text" name="nit" placeholder="nit"><br>
+			<label class="label">------Nombre--------</label>
+			<input type="number" name="nombre" placeholder="nombre"><br>
+			<label class="label">------Email--------</label>
+			<input type="email" name="email" placeholder="email">						
+		</form>
+	</div>
+	<div class="contenedor">	
+	   <h1>Empresas</h1>
+	   <div class="info">
+	   	 <section>
+	   	 	<button onclick="modal()">Nuevo Empresa</button>
+	   	  	<input type="text" name="buscar" placeholder="Nombre de Empresa">
+	   	 	<button class="buscar">Buscar</button>	 
+	   	 	<button onclick="modal()">Empresa Inhabilitado</button>
+	   	 	<button onclick="modal()">Empresa Activo</button>  	  
+	   	 	<button onclick="modal()">Empresa Desactivado</button>  	
+	   	 </section>	 	 
+	   </div><br>
+	   <table class="Empresa_t">
+		<tr>
+		    <th>
+		       Imagen Empresa
+		    </th> 
+			<th>
+			   Correo
+		    </th> 
+			<th>
+				Nit
+			</th> 
+			<th>
+				Nombre
+			</th> 
+			<th>
+				Tipo
+			</th> 
+			<th>
+				Dinero Aportado
+			</th> 
+			<th>
+				Numero Telefonico
+			</th>
+			<th>
+				Ciudad/Pais
+			</th>
+			<th>
+				Accion
+			</th>
+		</tr>
+		<tr>
+		    <td>
+		       <img src="../img/empresa.png" >
+		    </td> 
+			<td>
+			   
+		    </td> 
+			<td>
+				
+			</td> 
+			<td>
+				
+			</td> 
+			<td>
+				
+			</td> 
+			<td>
+				
+			</td> 
+			<td>
+				
+			</td>
+			<td>
+				
+			</td>
+			<td>
+				<i class="fas fa-play" onclick="modal()"></i><i class="fas fa-pencil-alt" onclick="modal()"></i><i class="fas fa-trash-alt" onclick="modal()"></i>
+			</td>
+		</tr>
+	</table>
+	</div>   
+</body>
+</html>
+<script src="../js/modal.js"> </script>

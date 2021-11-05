@@ -1,0 +1,212 @@
+*{
+
+    font-family: Arial;
+
+}
+
+.color-1{
+
+    background: #3E5916;
+
+}
+
+/* NAVBAR */
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #c4c4c4;
+}
+
+.border-down {
+    border-bottom: 3px solid #8BA629;
+}
+
+.login-item {
+    border: 3px solid #8BA629;
+    padding: 10px;
+}
+
+/* INICIO PÁGINA */
+
+.content-section{
+    background: #3E5916;
+    height: 95vh;
+    border-radius: 0 0 90% 90% / 70%;
+    color: white;
+    text-align: center;
+}
+
+button {
+
+    color: white;
+    border: 0;
+    background:  #8BA629;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+/* QUIENES SOMOS */
+
+.info-section {
+
+    margin-top: 5%;
+    color: #537361;
+
+}
+
+.info-section h1, .info-section p {
+
+    text-align: center;
+    padding: 30px;
+
+}
+
+.info-section img {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 60px;
+}
+
+/* NUESTRO TRABAJO */
+
+.work-section {
+
+    background: #3E5916;
+
+}
+
+.work-section h1 {
+    color: white;
+    padding-top: 30px;
+}
+
+.work-section .text-img {
+
+    position: relative;
+    bottom: 42px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background: black;
+    padding: 20px;
+    opacity: 80%;
+    text-align: center;
+
+}
+
+.work-section .decorate-line {
+
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    align-self: flex-start;
+    margin-bottom: 40px;
+
+}
+
+/* LO QUE HEMOS LOGRADO */
+
+.digits-section {
+
+    margin-top: 100px;
+
+}
+
+.digits-section h1, .digits-section p {
+
+    color: #537361;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.digits-section img {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+
+}
+
+/* SECCIÓN DE LA FRASE */
+
+.phrase-section {
+
+    margin-top: 70px;
+    background-image: url(https://i.pinimg.com/originals/7b/92/cb/7b92cbe3c41307d380100c6b48c96c34.jpg);
+    filter: brightness(70%);
+    
+
+}
+
+.phrase-section p {
+
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+
+
+}
+
+/* FOOTER */
+
+.footer-nazi {
+
+    background-color: #3D3D3D;
+    color: white;
+
+}
+
+.footer-nazi .nav-item {
+
+    padding-top: 20px;
+
+}
+
+.footer-nazi h1{
+
+    padding-bottom: 30px;
+
+}
+
+.footer-nazi form input, .footer-nazi form textarea, .footer-nazi select, .footer-nazi button {
+
+    margin-top: 15px;
+    padding: 10px;
+
+}
+
+/* FRASE RESPONSIVA */ /* ACORDARME DE HACER NUESTRO TRABAJO RESPONSIVO (SUBTITULOS EN LA IMÁGEN) */ 
+
+@media screen and (max-width: 800px) {
+
+    .phrase-section {
+
+        margin-top: 70px;
+        background-image: url(https://i.pinimg.com/originals/7b/92/cb/7b92cbe3c41307d380100c6b48c96c34.jpg);
+        filter: brightness(70%);
+    
+    }
+    
+    .phrase-section p {
+    
+        color: white;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+
+
+    }
+
+
+}

@@ -1,0 +1,19 @@
+.Empresa_t
+{
+	width: 100%;
+}
+.Empresa_t th
+{
+	border-radius: 5px;
+	background: gray;
+	padding: 5px;
+	height: 5px;
+	color: white;
+    font-weight: bold;
+}
+.Empresa_t i
+{
+	margin-left: 10px;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
