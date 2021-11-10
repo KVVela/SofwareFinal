@@ -1,0 +1,129 @@
+.contenedor_registro
+{
+    position: relative;
+    width: 100%;
+    height: 100%;	
+}
+.contenedor_registro h2
+{
+  position: absolute;
+  width: 279px;
+  height: 39px;
+  left: 140px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  color: #3e5916;
+}
+.registro , .registro2
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+.registro section, .registro2 section
+{
+   position: relative;
+   width: 650px;
+   height: 100%;
+}
+.registro section img
+{
+    margin-top: 50px;
+    margin-left: 5%;
+   width: 90%;
+   height: 130%;
+}
+.registro  section input
+{
+   width: 90%;
+   height: 20px;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+   margin: 30px;
+   border-bottom: 3px solid #3e5916;
+}
+.formulario table
+{
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 10%;
+}
+.center
+{
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+.center button
+{
+    width: 300px;
+	height: 50px;
+	padding: 4px;
+	color: white;
+	border-radius: 15px;
+	font-size: 1.2em;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	background: #3e5916;
+	border: none;
+	cursor: pointer;
+}
+.login 
+{
+  width: 50% ;
+  height: 70%;
+  margin-left: 25%;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 1px solid black ;
+}
+.ini_ses
+{
+	position: relative;
+	width: 180px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 110px;
+	border-radius: 10px;
+	background: #3e5916;
+	color: white;
+}
+.login table td
+{
+	margin-left: 20px;
+}
+.tables input
+{
+   border: 2px solid black;
+   height: 20px;
+   border-radius: 5px;
+}
+.verde
+{
+	position: absolute;
+	width: 1000px;
+	height: 710px;
+	background: #3e5916;
+	margin-left: -50%;
+	margin-top: -7.5%;
+	border-radius: 0% 50% 50% 0%;	
+	z-index: 10000	;
+}
+.verde h1
+{
+	position: absolute;
+	z-index: 10000	;
+	color: black;
+	margin-left: 450px;
+	margin-top: 350px;
+	font-size: 3rem;
+	font-weight: bold;
+}
